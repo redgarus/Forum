@@ -57,7 +57,7 @@ def index(encusername, encfirstname, encodik):
 
 	username = cipher.getTranslatedMessage(symb, encusername, RAN_NUM, True)
 	firstname = cipher.getTranslatedMessage(symb, encfirstname, RAN_NUM, True)
-	codik = cipher.getTranslatedMessage("1234567890", encodik, 5, True)
+	codik = cipher.getTranlatedMessage("1234567890", encodik, 5, True)
 
 
 	sql.execute("""CREATE TABLE IF NOT EXISTS msg_list(
