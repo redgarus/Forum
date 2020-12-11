@@ -1,0 +1,302 @@
+html {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.shadow_box {
+	/* shadow  and bg_color */
+	background-color: #8a0707; /* Цвет фона */
+	box-shadow: 0 0 10em rgb(255, 0, 0); /* Параметры тени */
+
+	/* position */
+	position: absolute;
+	left: 35%;
+	top: 25%;
+
+	/* size */
+	width: 30%;
+	height: 40%;
+
+	/* font */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#name {
+	font-size: 2.5em;
+	padding: 0px 10px 5px 3.3em; /* top, right, bottom, left */ 
+}
+
+#first_name {
+	font-size: 2.5em;
+	padding: 0px 10px 5px 2.4em; /* top, right, bottom, left */ 
+}
+
+#code {
+	font-size: 2.5em;
+	padding: 0px 10px 5px 3.3em; /* top, right, bottom, left */ 
+}
+
+#input_name, 
+#input_first_name, 
+#input_code {
+	margin: 0px 10px 5px 10px;
+	height: 40px;
+	width: 350px;
+	border: 0;
+	background-color: white;
+
+}
+
+#input_name:hover, 
+#input_first_name:hover, 
+#input_code:hover {
+	background: white/*#e3e3e3*/;
+	box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+#input_msg {
+	/* shadow */
+	box-shadow: 0 -20px 2em rgb(255, 0, 0); /* Параметры тени */
+	
+	/* bg_color */
+	background-color: black;
+
+	/* input size */
+	height: 8%;
+	width: 98.9%;
+	min-width: 0;
+
+	/* border */
+	border: 1;
+	border-width: 5px;
+	border-color: #373737;
+	border-style: solid;
+
+	/* font */
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgba(255, 0, 0, 0.65);
+
+	/* position */
+	position: absolute;
+	top: 90.5%;
+}
+
+.msg_box {
+	/* font */
+	color: red;
+	font-size: 1.5em;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+
+	/* padding: 0 0 2em 0;  top, right, bottom, left */
+}
+
+#input_msg::placeholder {
+	color: rgba(255, 0, 0, 0.65);
+	font-size: 1.5em;
+}
+
+.shadow_btn {
+	display: none;
+
+	/* shadow and bg_color */
+	box-shadow: 0 0 10px rgba(84, 3, 3); /* Параметры тени */
+	background: #990808; /* Цвет фона */
+
+	/* shadow_box-size */
+	width: 155px;
+	height: 55px;
+
+	/* border */
+	border-width: 0px;
+
+	/* position */
+	position: absolute;
+	top: -1%;
+
+	/* font */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+
+	/* cursor */
+	cursor: pointer;
+}
+
+.text:hover .shadow_btn{
+	display: block;
+	transition-duration: 2s;
+}
+
+
+.text {
+	display: block;
+
+	/* font size and color*/
+	font-size: 2.5em;
+
+	/* position */
+
+	position: absolute;
+	left: 30%;
+	top: 82.5%;
+
+}
+
+.text_btn {
+	font-size: 3em;
+
+}
+
+.text_btn_2 {
+	font-size: 2em;
+}
+
+.text_2 {
+	display: block;
+
+	/* font size and color*/
+	font-size: 1.7em;
+
+	/* position */
+
+	position: absolute;
+	left: 10%;
+	top: 80%;
+
+}
+
+#shadow_btn_2 {
+	/* display */
+	display: none;
+
+	/* shadow and bg_color */
+	box-shadow: 0 0 10px rgba(84, 3, 3); /* Параметры тени */
+	background: #990808; /* Цвет фона */
+
+	/* shadow_box size */
+	width: 310px;
+	height: 50px;
+
+	/* border */
+	border-width: 0px;
+
+	/* position */
+	position: absolute;
+	top: -1%;
+
+	/* font */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+
+	/* cursor */
+	cursor: pointer;
+}
+
+.admin_code {
+	font-size: 2.5em;
+	padding: 10px 10px 0px 2em; /* top, right, bottom, left */
+}
+
+.shadow_box_2 {
+	/* shadow  and bg_color */
+	background-color: #8a0707; /* Цвет фона */
+	box-shadow: 0 0 10em rgb(255, 0, 0); /* Параметры тени */
+
+	/* position */
+	position: absolute;
+	left: 35%;
+	top: 25%;
+
+	/* size */
+	width: 30%;
+	height: 40%;
+
+	/* font */
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.text_2:hover #shadow_btn_2 {
+	display: block;
+	transition-duration: 2s;
+}
+
+.new_name {
+	font-size: 2.3em;
+	padding: 0px 10px 0px 3.7em; /* top, right, bottom, left */
+}
+
+.new_first_name {
+	font-size: 2.3em;
+	padding: 0px 10px 0px 2.5em; /* top, right, bottom, left */
+}
+
+.input_n_n,
+.input_n_f_n,
+#admin_code {
+	margin: 0px 10px 5px 10px;
+	height: 40px;
+	width: 350px;
+	border: 0;
+	background-color: white;
+}
+
+.input_n_n:hover,
+.input_n_f_n:hover,
+#admin_code:hover {
+	background: white/*#e3e3e3*/;
+	box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+#url_login {
+	/* text-color */
+	color: #8a0707;
+
+	/* position */
+	position: absolute;
+	top: 95%;
+	left: 2.5%;
+
+	/* font */
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#url_reg {
+	/* text-color */
+	color: #8a0707;
+
+	/* position */
+	position: absolute;
+	top: 95%;
+	left: 2.5%;
+
+	/* font */
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.title-text {
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3em;
+	position: absolute;
+	left: 30%;
+	top: 48%;
+	color: red;
+}

@@ -1,0 +1,1 @@
+ADMIN_CODE = "Kjkszpj3007"

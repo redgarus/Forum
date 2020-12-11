@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Регистрация | Форум 7М класса
+{% endblock %}
+
+
+{% block body %}
+<div class="shadow_box_2">
+	<form method="post">
+		<div class="admin_code">Админ код</div>
+		<input type="password" id="admin_code" name="admin-code">
+		<div class="new_name">Имя</div>
+		<input type="text" name="new_name" class="input_n_n">
+		<div class="new_first_name">Фамилия</div>
+		<input type="text" name="new_first_name" class="input_n_f_n">
+		<div class="text_2">
+		Зарегистрироваться
+		<button type="submit" id="shadow_btn_2">
+			<div class="text_btn_2">Зарегистрироваться</div>
+		</button> 
+		</div>
+	</form>
+</div>
+<a href="/login" id="url_reg">Пользователь уже создан?</a>
+{% endblock %}

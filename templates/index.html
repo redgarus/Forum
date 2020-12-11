@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Форум | 7М класс
+{% endblock %}
+
+
+{% block body %}
+<form method="post">
+	<div class="msg_box">
+		{% for msg in msg_list %}
+			{{ msg }}<br />
+		{% endfor %}
+	</div>
+	<input id="input_msg" placeholder="Введите сообщение" type="text" name="message">
+</form>
+{% endblock %}
