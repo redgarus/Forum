@@ -1,6 +1,5 @@
 from flask import Flask, render_template, redirect, request
 import sqlite3
-import time
 from configs import ADMIN_CODE
 from random import randint
 from datetime import datetime
@@ -177,4 +176,4 @@ def reg_new_user():
 
 
 if __name__ == "__main__":
-	app.run(debug=True, use_reloader=True)
+	app.run(debug=True)
