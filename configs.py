@@ -1,1 +1,1 @@
-ADMIN_CODE = "Kjkszpj3007"
+ADMIN_CODE = ""
